@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día de las Flores Amarillas, Yosmeli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fefae0;
+            background-image: radial-gradient(#faedcd 1px, transparent 1px);
+            background-size: 20px 20px;
+            font-family: 'Poppins', sans-serif;
+            color: #582f0e;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(212, 163, 89, 0.2);
+            border: 2px solid #dda15e;
+            position: relative;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #bc6c25;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .date {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #dda15e;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .intro-text {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+        }
+        .polaroid {
+            background: #fff;
+            padding: 10px 10px 25px 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            transform: rotate(-2deg);
+            transition: transform 0.3s ease;
+            width: 150px;
+        }
+        .polaroid:nth-child(even) {
+            transform: rotate(3deg);
+        }
+        .polaroid:hover {
+            transform: scale(1.05) rotate(0deg);
+            z-index: 10;
+        }
+        .polaroid img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 3px;
+        }
+        .poem {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-style: italic;
+            line-height: 1.8;
+            color: #6b4226;
+            background: #fefae0;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #bc6c25;
+        }
+        .signature {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            color: #bc6c25;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="date">21 de Septiembre</div>
+        <h1>¡Feliz Día de las Flores Amarillas, Yosmeli! 🌻</h1>
+        
+        <p class="intro-text">
+            Hoy el mundo se pinta de amarillo, pero mi vida se ilumina por completo gracias a ti. 
+            Eres una persona maravillosa y este pequeño rincón digital es solo una muestra de lo mucho que te amo. 
+            ¡Que tengas un día tan hermoso y especial como tu sonrisa!
+        </p>
+
+        <div class="gallery">
+            <div class="polaroid">
+                <img src="foto1.jpg" alt="Foto de Yosmeli">
+            </div>
+            <div class="polaroid">
+                <img src="foto2.jpg" alt="Foto de Yosmeli">
+            </div>
+        </div>
+
+        <div class="poem">
+            Bajo este cielo de amarillo esplendor,<br>
+            florece en mi alma este inmenso amor.<br>
+            Yosmeli, eres la luz de mis días,<br>
+            la más hermosa de mis alegrías.<br>
+            Que este detalle dibuje una sonrisa en ti,<br>
+            hoy y siempre queriéndote aquí.<br>
+            🌻
+        </div>
+
+        <div class="signature">
+            Con amor, tu negrito.
+        </div>
+    </div>
+
+</body>
+</html>
